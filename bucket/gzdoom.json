@@ -10,7 +10,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/coelckers/gzdoom/releases/download/g4.11.3/gzdoom-4-11-3-Windows-64bit.zip",
+            "url": "https://github.com/zdoom/gzdoom/releases/download/g4.11.3/gzdoom-4-11-3.a.-Windows-64bit.zip",
             "hash": "64b7248e6638fe7699135812cb4a7b7d7b9cd818cc6ad6ae677e39f4aef795b4"
         }
     },
@@ -34,13 +34,13 @@
         "Screenshots"
     ],
     "checkver": {
-        "github": "https://github.com/coelckers/gzdoom",
+        "github": "https://github.com/zdoom/gzdoom",
         "regex": "/releases/tag/(?:g)?([\\w.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/coelckers/gzdoom/releases/download/g$version/gzdoom-$dashVersion-Windows-64bit.zip"
+                "url": "https://github.com/zdoom/gzdoom/releases/download/g$version/gzdoom-$dashVersion-Windows-64bit.zip"
             }
         }
     }
